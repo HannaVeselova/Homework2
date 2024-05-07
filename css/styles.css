@@ -1,0 +1,122 @@
+/* цвет основого текста #757575 */
+/* цвет вторичного текста #212121 */
+/* цвет текста Hero #ffffff */
+/* цвет акцент #2196F3 */
+
+/* цвет фона #FFFFFF */
+/* цвет фона Hero and Foter #2F303A */
+/* цвет фона светло-серый #F5F4FA */
+
+:root{
+--primery-text-color: #757575;
+--title-text-color: #212121;
+--accent-color: #2196F3;
+--hero-title-color: #ffffff;
+--button-secondary-color: #F5F4FA;
+--primery-background-color: #ffffff;
+}
+
+body{
+    background-color:var(--primery-background-color);
+    color: var(--primery-text-color);
+    font-family: Roboto, sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+.logo {
+    color: #000000;
+    font-family: raleway, sans-serif;
+}
+
+.logoblue{
+    color: var(--accent-color);
+}
+
+/* Site nav */
+
+.site-nav a {
+color: var(--title-text-color);
+}
+
+.site-nav :hover,
+.site-nav :focus {
+color: var(--accent-color);
+}
+
+.site-nav .link.current{
+color: var(--accent-color);
+}
+
+/* Hero */
+
+.hero-title {
+    color: var(--hero-title-color);
+}
+
+/* Section */
+
+.section-title {
+    color: var(--title-text-color);
+}
+
+/* Features */
+
+.features .title{
+    color: var(--title-text-color);
+}
+
+/* What are we doing */
+
+
+/* Our team */
+
+.team .title{
+    color: var(--title-text-color);
+}
+
+/* Button */
+
+.button{
+    color: var(--primery-text-color);
+    background-color: var(--button-secondary-color);
+}
+
+
+
+.button.primary{
+    background-color: var(--accent-color);
+    color: var(--hero-title-color);
+}
+
+.button.secondary{
+    background-color: var(--button-secondary-color);
+    color: var(--title-text-color);
+}
+
+.button.secondary:hover, .button.secondary:focus {
+    background-color: var(--accent-color);
+    color: var(--primery-background-color);
+}
+
+
+
+.link{
+    text-decoration: none;
+    color: var(--title-text-color)
+}
+
+/* Contacts */
+
+.connect-contact{
+    color: var(--primery-text-color);
+}
+
+.connect-contact:hover,
+.connect-contact:focus{
+    color: var(--accent-color);
+}
+
+/* Стили для portfolio.html */
